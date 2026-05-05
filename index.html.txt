@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Kabir Shami</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div class="loader">Loading...</div>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>Muhammad Kabir Shami</h1>
+  <h2>Digital Marketing Specialist</h2>
+  <p class="typing"></p>
+  <a href="#portfolio" class="btn">View My Work</a>
+</header>
+
+<!-- NAV -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a digital marketing specialist helping businesses grow through social media management,
+    Meta ads, and TikTok ads. I focus on strategies that increase reach,
+    generate leads, and build a strong online presence.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>My Services</h2>
+  <div class="grid">
+    <div class="card">Social Media Accounts Handling</div>
+    <div class="card">Meta Ads</div>
+    <div class="card">Meta Business Suite</div>
+    <div class="card">Content Creation</div>
+    <div class="card">Facebook Ads Library</div>
+    <div class="card">Web Development</div>
+    <div class="card">WordPress</div>
+    <div class="card">Canva</div>
+    <div class="card">MS Word</div>
+    <div class="card">MS Excel</div>
+    <div class="card">MS PowerPoint</div>
+    <div class="card">Data Entry</div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <h2>My Clients</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Dr Shahid Iqbal Malik</h3>
+      <a href="https://dsimpeds.com/" target="_blank">Visit Website</a>
+    </div>
+
+    <div class="card">
+      <h3>Prof Dr Hafiz Abdul Majid</h3>
+      <a href="https://pdhabm.com/" target="_blank">Visit Website</a>
+    </div>
+
+    <div class="card">
+      <h3>Dr Moin Islam</h3>
+      <a href="https://dmislam.com/" target="_blank">Visit Website</a>
+    </div>
+
+    <div class="card">
+      <h3>UMH Medical Billing</h3>
+      <a href="https://www.linkedin.com/company/umhbilling/" target="_blank">View Profile</a>
+    </div>
+
+    <div class="card">
+      <h3>Remote Virtual Assistant</h3>
+      <a href="https://www.linkedin.com/company/remote-vi/" target="_blank">View Profile</a>
+    </div>
+
+    <div class="card">
+      <h3>Dr Salman Ahmed</h3>
+      <a href="https://www.instagram.com/drchsalman/" target="_blank">View Profile</a>
+    </div>
+
+    <div class="card">
+      <h3>Dr Arslan Ahmad</h3>
+      <a href="https://www.instagram.com/docch.arslan/" target="_blank">View Profile</a>
+    </div>
+
+    <div class="card">
+      <h3>Dr Alina Sherdil</h3>
+      <a href="https://www.instagram.com/dr_alina_skin/" target="_blank">View Profile</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Phone: 0317 0841400</p>
+  <p>Email: kabirshami39@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Muhammad Kabir Shami</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

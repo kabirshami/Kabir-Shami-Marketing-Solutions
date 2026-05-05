@@ -1,0 +1,38 @@
+// LOADER
+window.addEventListener("load", () => {
+  document.querySelector(".loader").style.display = "none";
+});
+
+// TYPING
+const text = "I Grow Brands Through Smart Marketing";
+let i = 0;
+function typing() {
+  if (i < text.length) {
+    document.querySelector(".typing").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(typing, 40);
+  }
+}
+typing();
+
+// SMOOTH SCROLL
+document.querySelectorAll("nav a").forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    document.querySelector(link.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+// SCROLL ANIMATION
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+document.querySelectorAll("section").forEach(sec => {
+  observer.observe(sec);
+});
